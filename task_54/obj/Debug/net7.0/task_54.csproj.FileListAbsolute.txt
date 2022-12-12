@@ -1,0 +1,15 @@
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/bin/Debug/net7.0/task_54
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/bin/Debug/net7.0/task_54.deps.json
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/bin/Debug/net7.0/task_54.runtimeconfig.json
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/bin/Debug/net7.0/task_54.dll
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/bin/Debug/net7.0/task_54.pdb
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/task_54.csproj.AssemblyReference.cache
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/task_54.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/task_54.AssemblyInfoInputs.cache
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/task_54.AssemblyInfo.cs
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/task_54.csproj.CoreCompileInputs.cache
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/task_54.dll
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/refint/task_54.dll
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/task_54.pdb
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/task_54.genruntimeconfig.cache
+/Users/zksystem/Anastasia/Studies/GeekBrains/C#/homework/seminar_08/task_54/obj/Debug/net7.0/ref/task_54.dll
