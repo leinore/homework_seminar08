@@ -1,17 +1,46 @@
 ﻿// Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, 
 // которая будет построчно выводить массив, добавляя индексы каждого элемента.
 
-int[,] FillMatrix(int rows, int columns)
+
+
+int[] numbers = new int[99 * 99 * 99];
+int index = 0;
+
+
+int[,,] FillMatrix(int x, int y, int z)
 {
-    int[,] matrix = new int [rows, columns];
-    for (int i = 0; i < matrix.GetLength(0); i++)
+
+    int[,,] matrix = new int [x, y, z];
+    for (int i = 0; i < x; i++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
+        for (int j = 0; j < y; j++)
         {
-            matrix[i,j] = new Random().Next(0,10);
+            for (int k = 0; k < z; k++)
+            {
+                matrix[i,j,k] = getRandom();
+            }
         }
     }
     return matrix;
+}
+
+int getRandom() {
+    bool isAlready;
+    int rndNumber;
+
+    do{
+        rndNumber = new Random().Next(10,100);
+        isAlready = false;        
+        for(int i = 0; i < index; i++) {
+            if(numbers[i] == rndNumber) {
+                isAlready = true;
+                break;
+            }
+        }
+    } while (isAlready);
+
+    numbers[index++] = rndNumber;
+    return rndNumber;    
 }
 
 void PrintMatrix(int[,,] matrix)
@@ -22,8 +51,7 @@ void PrintMatrix(int[,,] matrix)
         {
             for (int k = 0; k < matrix.GetLength(2); k++)
             {
-                Console.Write(matrix[i,j,k] + " ");
-                Console.Write(matrix[i,j,k] + " ");
+                Console.Write($"[{i},{j},{k}]=" + matrix[i,j,k] + " ");
             }
         }
         Console.WriteLine();
